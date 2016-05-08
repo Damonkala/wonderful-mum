@@ -2,6 +2,7 @@ $(document).ready(init)
 var trait = "";
 function init() {
 	$('#question').click(answer);
+	$('#desc').click(answer);
 }
 function answer() {
 	switch(trait) {
